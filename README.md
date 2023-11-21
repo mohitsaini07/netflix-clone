@@ -1,8 +1,17 @@
-# React + Vite
+# Netflix Clone 
+This is a Netflix clone project built using ReactJS, JavaScript, Tailwind CSS, and Firebase. The goal of this project is to showcase my front-end development skills.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tech Stack
 
-Currently, two official plugins are available:
+ReactJS: Used for building the user interface and managing the application's state.<br>
+JavaScript: Enhances the functionality and interactivity of the Netflix clone.<br>
+Tailwind CSS: Provides a utility-first CSS framework for styling and designing the components.<br>
+Firebase: Utilized for backend functionalities, including authentication and hosting.<br>
+HTML: The structure of the web pages is built using HTML.<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features <br>
+Responsive design for a seamless user experience across devices.<br>
+Fetches and displays movie data dynamically.<br>
+Firebase authentication ensures secure access to the application.
+
+live at - https://netflix-clone-8v3k.vercel.app/
