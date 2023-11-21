@@ -14,4 +14,4 @@ Responsive design for a seamless user experience across devices.<br>
 Fetches and displays movie data dynamically.<br>
 Firebase authentication ensures secure access to the application.
 
-live at - https://netflix-clone-8v3k.vercel.app/
+live at - https://netflix-clone-8v3k-git-master-mohit-sainis-projects.vercel.app/
