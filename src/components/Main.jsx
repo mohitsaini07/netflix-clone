@@ -13,8 +13,6 @@ const Main = () => {
       .then((res) => setMovies(res.data.results));
   }, []);
 
-  //   console.log(movie);
-
   const truncateString = (str, num) => {
     if (str?.length > num) {
       return str.slice(0, num) + "...";
@@ -24,7 +22,7 @@ const Main = () => {
   };
   return (
     <div className="w-full h-[550px] text-white">
-      <div className="w-full h-full ">
+      <div className="w-full h-full">
         <div className="absolute w-full h-[550px] bg-gradient-to-r from-black"></div>
         <img
           className="w-full h-full object-cover"

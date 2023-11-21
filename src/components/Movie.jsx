@@ -24,18 +24,18 @@ const Movie = ({ id }) => {
     },
   });
 
-  if (!user) {
-    return null;
-  }
-
   const saveShow = async () => {
-    try {
-      if (!isLiked) {
-        await addShowToFavorites(user.email, id);
-        setIsLiked(true);
+    if (user?.email) {
+      try {
+        if (!isLiked) {
+          await addShowToFavorites(user.email, id);
+          setIsLiked(true);
+        }
+      } catch {
+        alert("Something went wrong!");
       }
-    } catch {
-      alert("Something went wrong!");
+    } else {
+      alert("Login to Save!");
     }
   };
 
